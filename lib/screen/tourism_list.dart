@@ -1,6 +1,6 @@
 import 'package:dicoding_lab0/screen/detail_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:dicoding_lab0/model/tourism_pace.dart';
+import 'package:dicoding_lab0/model/tourism_place.dart';
 
 class TourismList extends StatelessWidget {
   const TourismList({Key? key}) : super(key: key);

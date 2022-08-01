@@ -1,7 +1,7 @@
 import 'package:dicoding_lab0/components/favorite_button.dart';
 import 'package:flutter/material.dart';
 
-import 'package:dicoding_lab0/model/tourism_pace.dart';
+import 'package:dicoding_lab0/model/tourism_place.dart';
 
 class DetailPageMobile extends StatefulWidget {
   final TourismPlace place;

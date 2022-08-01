@@ -1,4 +1,4 @@
-import 'package:dicoding_lab0/model/tourism_pace.dart';
+import 'package:dicoding_lab0/model/tourism_place.dart';
 import 'package:dicoding_lab0/screen/detail_screen.dart';
 import 'package:dicoding_lab0/screen/tourism_grid.dart';
 import 'package:dicoding_lab0/screen/tourism_list.dart';

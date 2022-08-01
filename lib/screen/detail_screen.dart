@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:dicoding_lab0/components/favorite_button.dart';
-import 'package:dicoding_lab0/model/tourism_pace.dart';
+import 'package:dicoding_lab0/model/tourism_place.dart';
 import 'package:dicoding_lab0/screen/detailPage_mobile.dart';
 import 'package:dicoding_lab0/screen/detailPage_web.dart';
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:dicoding_lab0/model/tourism_pace.dart';
+import 'package:dicoding_lab0/model/tourism_place.dart';
 import 'package:dicoding_lab0/screen/detail_screen.dart';
 
 class TourismGrid extends StatelessWidget {
