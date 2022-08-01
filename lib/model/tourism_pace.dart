@@ -6,6 +6,7 @@ class TourismPlace {
   String openTime;
   String ticketPrice;
   String imageAsset;
+  String heroTag;
   List<String> imageUrls;
 
   TourismPlace({
@@ -16,6 +17,7 @@ class TourismPlace {
     required this.openTime,
     required this.ticketPrice,
     required this.imageAsset,
+    required this.heroTag,
     required this.imageUrls,
   });
 }
@@ -37,6 +39,7 @@ var tourismPlaceList = [
       'assets/images/alang/list4.jpg',
       'assets/images/alang/list5.jpg',
     ],
+    heroTag: 'dash1',
   ),
   TourismPlace(
     name: 'Mountain Cafe',
@@ -46,12 +49,13 @@ var tourismPlaceList = [
     openDays: 'Open Tuesday - Saturday',
     openTime: '09:00 - 14:30',
     ticketPrice: 'Free',
-    imageAsset: 'assets/images/mountain/m1.JPG',
+    imageAsset: 'assets/images/mountain/m1.jpg',
     imageUrls: [
-      'assets/images/mountain/m1.JPG',
-      'assets/images/mountain/m2.JPG',
-      'assets/images/mountain/m3.JPG',
+      'assets/images/mountain/m1.jpg',
+      'assets/images/mountain/m2.jpg',
+      'assets/images/mountain/m3.jpg',
     ],
+    heroTag: 'dash2',
   ),
   TourismPlace(
     name: 'Warung Mifta',
@@ -67,6 +71,7 @@ var tourismPlaceList = [
       'assets/images/mifta2/mf2.JPG',
       'assets/images/mifta2/mf3.JPG',
     ],
+    heroTag: 'dash3',
   ),
   TourismPlace(
     name: 'Pondok Aya',
@@ -76,12 +81,13 @@ var tourismPlaceList = [
     openDays: 'Open Everyday',
     openTime: '24 hours',
     ticketPrice: 'Rp.130000',
-    imageAsset: 'assets/images/pondok/pondok1.JPG',
+    imageAsset: 'assets/images/pondok/pondok1.jpg',
     imageUrls: [
-      'assets/images/pondok/pondok1.JPG',
-      'assets/images/pondok/pondok2.JPG',
-      'assets/images/pondok/pondok3.JPG',
+      'assets/images/pondok/pondok1.jpg',
+      'assets/images/pondok/pondok2.jpg',
+      'assets/images/pondok/pondok3.jpg',
     ],
+    heroTag: 'dash4',
   ),
   TourismPlace(
     name: 'Taman Tri S',
@@ -91,11 +97,12 @@ var tourismPlaceList = [
     openDays: 'Open Everyday',
     openTime: '24 hours',
     ticketPrice: 'Rp.5000',
-    imageAsset: 'assets/images/taman/taman1.JPG',
+    imageAsset: 'assets/images/taman/taman1.jpg',
     imageUrls: [
-      'assets/images/taman/taman2.JPG',
-      'assets/images/taman/taman3.JPG',
-      'assets/images/taman/taman4.JPG',
+      'assets/images/taman/taman2.jpg',
+      'assets/images/taman/taman3.jpg',
+      'assets/images/taman/taman4.jpg',
     ],
-  ),  
+    heroTag: 'dash5',
+  ),
 ];

@@ -27,7 +27,7 @@ class TourismList extends StatelessWidget {
                 Expanded(
                   flex: 1,
                   child: Hero(
-                    tag: 'dash',
+                    tag: place.heroTag,
                     child: Image.asset(place.imageAsset),
                   ),
                 ),

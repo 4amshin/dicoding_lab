@@ -58,9 +58,12 @@ class _DetailPageWebState extends State<DetailPageWeb> {
                             padding: const EdgeInsets.symmetric(vertical: 15),
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(10),
-                              child: Image.asset(
-                                widget.place.imageAsset,
-                                fit: BoxFit.cover,
+                              child: Hero(
+                                tag: widget.place.heroTag,
+                                child: Image.asset(
+                                  widget.place.imageAsset,
+                                  fit: BoxFit.cover,
+                                ),
                               ),
                             ),
                           ),

@@ -30,9 +30,12 @@ class TourismGrid extends StatelessWidget {
               child: Column(
                 children: [
                   Expanded(
-                    child: Image.asset(
-                      place.imageAsset,
-                      fit: BoxFit.cover,
+                    child: Hero(
+                      tag: place.heroTag,
+                      child: Image.asset(
+                        place.imageAsset,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   const SizedBox(height: 8),

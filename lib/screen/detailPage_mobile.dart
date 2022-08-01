@@ -17,7 +17,6 @@ class DetailPageMobile extends StatefulWidget {
 class _DetailPageMobileState extends State<DetailPageMobile> {
   final _scrollController = ScrollController();
   bool isFavorite = false;
-
   @override
   void dispose() {
     super.dispose();
@@ -38,7 +37,7 @@ class _DetailPageMobileState extends State<DetailPageMobile> {
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(20),
                   child: Hero(
-                    tag: 'dash',
+                    tag: widget.place.heroTag,
                     child: Image.asset(
                       widget.place.imageAsset,
                       width: 400,
